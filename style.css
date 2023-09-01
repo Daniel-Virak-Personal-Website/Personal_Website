@@ -81,6 +81,20 @@ h2 {
   margin-top: 0;
 }
 
+.image-stack {
+  height: 600px;
+  display: inline-block;
+  margin: 1.2rem;
+  margin-top: 0;
+}
+
+.block div img {
+  height: 280px;
+  display: flex;
+  padding: 10px;
+  margin: 0;
+}
+
 .block2 ul {
   list-style: none;
   text-align: left;
