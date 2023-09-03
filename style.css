@@ -1,0 +1,9 @@
+.title {
+  background-color: #aa0000;
+  color: #b3995d;
+  border: 0.5rem solid #b3995d;
+  text-align: center;
+  border-radius: 1rem;
+  letter-spacing: 0.3rem;
+  font-size: 1.6rem;
+}
