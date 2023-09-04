@@ -14,14 +14,55 @@
   padding: 10px;
 }
 
-.block div {
-  padding-bottom: 1rem;
-}
-
 .block h1 {
   margin: 1.5rem;
 }
 
 .block img {
   height: 600px;
+  display: inline-block;
+}
+
+.block ul {
+  list-style: none;
+  text-align: left;
+}
+
+.block ul ul {
+  color: white;
+}
+
+.header-links {
+  padding-bottom: 10px;
+}
+
+.resume ul {
+  text-align: left;
+  list-style: none;
+}
+
+.resume ul ul {
+  color: white;
+}
+
+h4 {
+  margin: 0.3rem 0rem;
+}
+
+.location {
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
+.job ul ul li {
+  margin-bottom: 0.3rem;
+  font-size: 1.3rem;
+}
+
+.date {
+  font-weight: bold;
+}
+
+.job {
+  padding-bottom: 0.1rem;
 }
