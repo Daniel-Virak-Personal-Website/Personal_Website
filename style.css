@@ -1,6 +1,6 @@
 .block {
   background-color: #aa0000;
-  color: #b3995d;
+  color: white;
   border: 0.5rem solid #b3995d;
   text-align: center;
   border-radius: 1rem;
@@ -9,44 +9,33 @@
   margin: 5px;
 }
 
-.block a {
+.block2 {
+  background-color: #b3995d;
   color: white;
-  padding: 10px;
+  border: 0.5rem solid #aa0000;
+  text-align: center;
+  border-radius: 1rem;
+  letter-spacing: 0.3rem;
+  font-size: 1.6rem;
+  margin: 5px;
 }
 
-.block h1 {
-  margin: 1.5rem;
-}
-
-.block img {
-  height: 600px;
-  display: inline-block;
-}
-
-.block ul {
-  list-style: none;
-  text-align: left;
-}
-
-.block ul ul {
-  color: white;
-}
-
-.header-links {
-  padding-bottom: 10px;
-}
-
-.resume ul {
-  text-align: left;
-  list-style: none;
-}
-
-.resume ul ul {
-  color: white;
-}
-
-h4 {
+.title {
+  color: #aa0000;
   margin: 0.3rem 0rem;
+}
+
+.company {
+  color: #aa0000;
+}
+
+.date {
+  font-weight: bold;
+  color: white;
+}
+
+.job {
+  padding-bottom: 0.1rem;
 }
 
 .location {
@@ -54,15 +43,48 @@ h4 {
   font-weight: normal;
 }
 
+h1 {
+  color: #b3995d;
+}
+
+h2 {
+  color: #b3995d;
+}
+
+.block2 h2 {
+  color: #aa0000;
+}
+
+.block a {
+  color: white;
+  padding: 10px;
+}
+
+.header-links {
+  padding-bottom: 10px;
+}
+
+.block img {
+  height: 600px;
+  display: inline-block;
+  margin: 1.5rem;
+}
+
+.block2 ul {
+  list-style: none;
+  text-align: left;
+}
+/* 
+.block ul ul {
+  color: white;
+} */
+
+/* .resume ul {
+  text-align: left;
+  list-style: none;
+} */
+
 .job ul ul li {
   margin-bottom: 0.3rem;
   font-size: 1.3rem;
-}
-
-.date {
-  font-weight: bold;
-}
-
-.job {
-  padding-bottom: 0.1rem;
 }
