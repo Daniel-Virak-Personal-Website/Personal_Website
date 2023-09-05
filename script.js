@@ -23,3 +23,10 @@
 //     )}! It's quite empty now but we will build it up soon!`
 //   );
 // }
+
+// function index(){
+//   if (localStorage.getItem("hasCodeRunBefore") === null) {
+//     localStorage.setItem("hasCodeRunBefore", True);
+
+//   }
+// }
