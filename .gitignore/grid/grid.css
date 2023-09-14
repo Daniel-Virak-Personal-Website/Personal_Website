@@ -1,0 +1,46 @@
+#interests {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  width: 100%;
+}
+
+.one {
+  grid-column: 1;
+  grid-row: 1 / 2;
+}
+
+.two {
+  grid-column: 1;
+  grid-row: 2 / 3;
+  height: 100%;
+  object-fit: cover;
+}
+
+.three {
+  grid-column: 2;
+  grid-row: 1 / 3;
+  height: 100%;
+  object-fit: cover;
+}
+
+.four {
+  grid-column: 3;
+  grid-row: 1 / 3;
+  height: 100%;
+  object-fit: cover;
+}
+
+.five {
+  grid-column: 4;
+  grid-row: 1 /2;
+  height: 100%;
+  object-fit: cover;
+}
+
+.six {
+  grid-column: 4;
+  grid-row: 2 / 3;
+  height: 100%;
+  object-fit: cover;
+}

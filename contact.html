@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Contact Me!</title>
+  </head>
+  <body>
+    <header class="block">
+      <h1>Daniel Virak's Personal Website</h1>
+      <div class="header-links">
+        <a href="./index.html">Home</a>
+        <p>|</p>
+        <a href="./about.html">About me</a>
+        <p>|</p>
+        <a href="./portfolio.html">My Portfolio</a>
+        <p>|</p>
+        <a href="./contact.html">Contact Me</a>
+      </div>
+    </header>
+    <main>
+      <div class="block2">
+        <a
+          href="mailto:dvirak43@gmail.com?subject=We are Interested in Contacting You&body=We would love to set up an interview!"
+          >E-Mail Me</a
+        >
+        <a href="https://www.linkedin.com/in/dvirak/">Linkedin</a>
+        <div class="form">
+          <h3>Leave me a message and I'll get back to you!</h3>
+          <form action="./formsubmitted.html" class="form">
+            <div class="form-info">
+              <div class="info-block">
+                <label for="fname">First Name: </label><br />
+                <input type="text" id="fname" name="fname" class="input-box" />
+              </div>
+              <div class="info-block">
+                <label for="lname">Last Name: </label><br />
+                <input type="text" id="lname" name="lname" class="input-box" />
+              </div>
+              <div class="info-block">
+                <label for="email">Email: </label><br />
+                <input type="email" id="email" name="email" class="input-box" />
+              </div>
+            </div>
+            <label for="comments" class="comments-block">Comments:</label>
+            <textarea
+              id="comments"
+              name="comments"
+              rows="4"
+              cols="60"
+              class="comments-block input-box"
+            ></textarea>
+            <div>
+              <input type="submit" class="submit-button" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
