@@ -14,8 +14,13 @@ label {
 }
 
 a img {
-  width: 5%;
+  width: 10%;
   padding: 0 5%;
+  transition: all 0.3s ease-in;
+}
+
+a img:hover {
+  transform: scale(1.1);
 }
 
 #interests {
@@ -81,6 +86,10 @@ a img {
   align-items: center;
 }
 
+.contact-area h3 {
+  color: #b3995d;
+}
+
 .contact-box {
   border-radius: 1rem;
   /* border: 0.5rem solid white; */
@@ -90,7 +99,7 @@ a img {
 .contact-right {
   background-color: #aa0000;
   box-sizing: border-box;
-  flex: 1 1 65%;
+  flex: 1 1 70%;
   margin: 5%;
   padding: 1.3rem;
   box-shadow: 4px 4px 2px 1px black;
@@ -99,14 +108,19 @@ a img {
 .contact-left {
   background-color: #aa0000;
   box-sizing: border-box;
-  flex: 1 1 35%;
+  flex: 1 1 30%;
   margin: 5%;
   padding: 1.3rem;
 }
 
 .contact-link-section {
   text-align: center;
+  /* height: 50px; */
 }
+
+/* .contact-link-section a img{
+  width: 50px;
+} */
 
 .input-box {
   border-radius: 0.2rem;
@@ -154,11 +168,11 @@ a img {
 }
 
 .phone-number label {
-  width: 60%;
+  width: 66%;
 }
 
 .phone-number input {
-  width: 40%;
+  width: 36%;
 }
 
 .preferred-contact {
@@ -183,11 +197,29 @@ a img {
 
 .message-box {
   height: 100%;
+  margin-top: 0.5%;
 }
 
 .button-area {
   grid-column: 1 / 3;
   grid-row: 6;
+}
+
+.submit-button {
+  border-radius: 1rem;
+  height: 30px;
+  width: 150px;
+  background-color: #b3995d;
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: #aa0000;
+  transition: all 0.3s ease-in;
+}
+
+.submit-button:hover {
+  cursor: pointer;
+  /* opacity: 0.7; */
+  transform: scale(1.05);
 }
 
 .block {
@@ -203,6 +235,10 @@ a img {
   letter-spacing: 0.3rem;
   font-size: 1.6rem;
   margin: 5px;
+}
+
+.block p {
+  margin-top: 0;
 }
 
 .block2 {
@@ -263,13 +299,15 @@ a img {
   padding: 10px;
 }
 
-/* .block a:not(:last-child)::after {
-  content: "   |";
-  text-decoration: none;
-} */
+.block a {
+  transition: all 0.5s ease-in;
+}
 
 .block a:hover {
+  opacity: 0.7;
   background-color: #b3995d;
+  transform: scale(0.98);
+  border-radius: 0.5rem;
 }
 
 .header-links {
