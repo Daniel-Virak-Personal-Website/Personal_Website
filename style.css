@@ -1,6 +1,7 @@
 h1 {
   color: #b3995d;
-  margin: 1.3rem;
+  margin-top: 1.3rem;
+  margin-bottom: 0;
 }
 
 h2 {
@@ -21,6 +22,10 @@ a img {
 
 a img:hover {
   transform: scale(1.1);
+}
+
+main > div > img {
+  padding-bottom: 1rem;
 }
 
 #interests {
@@ -237,7 +242,7 @@ a img:hover {
   margin: 5px;
 }
 
-.block p {
+.hover-info {
   margin-top: 0;
 }
 
@@ -296,7 +301,7 @@ a img:hover {
 
 .header-links a {
   color: white;
-  padding: 10px;
+  padding: 0 10px;
 }
 
 .block a {
@@ -311,7 +316,6 @@ a img:hover {
 }
 
 .header-links {
-  padding-bottom: 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -319,42 +323,18 @@ a img:hover {
   margin: 0;
 }
 
-/* .block img {
-  height: 600px;
-  display: inline-block;
-  margin: 1.2rem;
-  margin-top: 0;
-} */
-/* 
-.image-stack {
-  height: 600px;
-  display: inline-block;
-  margin: 1.2rem;
-  margin-top: 0;
-} */
-
-/* .block div img {
-  height: 280px;
-  display: flex;
-  padding: 10px;
-  margin: 0;
-} */
-
 .block2 ul {
   list-style: none;
   text-align: left;
 }
-/* 
-.block ul ul {
-  color: white;
-} */
-
-/* .resume ul {
-  text-align: left;
-  list-style: none;
-} */
 
 .job ul ul li {
   margin-bottom: 0.3rem;
   font-size: 1.3rem;
+}
+
+.footer-link-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
