@@ -28,6 +28,7 @@ main > div > img {
   padding-bottom: 1rem;
 }
 
+/* About page section */
 #interests {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -83,6 +84,13 @@ main > div > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* Contact Page Section */
+.preferred-contact section {
+  padding-top: 1%;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-area {
@@ -350,7 +358,40 @@ main > div > img {
   transform: scale(1.1);
 }
 
-@media only screen (max-width: 800px;) {
+.home > img {
+  width: 90%;
+}
+
+/* Media querries for contact section so it doesnt get so ugly */
+@media (max-width: 1400px) {
+  /* Media querries for contact page */
+  .contact-left {
+    flex: 1 1 40%;
+    text-align: center;
+  }
+
+  .contact-right {
+    flex: 1 1 60%;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
+
+  .preferred-contact section {
+    padding-top: 1%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Tablet Media Querires */
+@media (max-width: 1000px) {
+  /* Media Querires for about Page. */
   #interests {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -365,43 +406,73 @@ main > div > img {
     object-fit: cover;
   }
 
-  .one {
+  .two {
     grid-column: 1;
-    grid-row: 1;
+    grid-row: 2;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
 
-  .one {
-    grid-column: 1;
-    grid-row: 1;
+  .three {
+    grid-column: 2;
+    grid-row: 1 / 3;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
 
-  .one {
+  .four {
     grid-column: 1;
-    grid-row: 1;
+    grid-row: 3 / 5;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
 
-  .one {
-    grid-column: 1;
-    grid-row: 1;
+  .five {
+    grid-column: 2;
+    grid-row: 3;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
 
-  .one {
-    grid-column: 1;
-    grid-row: 1;
+  .six {
+    grid-column: 2;
+    grid-row: 4;
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+}
+
+/* Mobile Media Querires */
+@media (max-width: 850px) {
+  /* Medi querries for contact page */
+  .contact-area {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 660px) {
+  /* Media Queries for about page */
+  #interests {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  ul {
+    padding-left: 1%;
+  }
+
+  ul h3 {
+    padding-left: 1%;
+  }
+
+  .block2 h2 {
+    margin-left: 1%;
   }
 }
