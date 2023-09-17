@@ -8,6 +8,16 @@ h2 {
   margin: 1.3rem;
 }
 
+label {
+  font-size: 1.3rem;
+  margin-bottom: 1%;
+}
+
+a img {
+  width: 5%;
+  padding: 0 5%;
+}
+
 #interests {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -63,6 +73,121 @@ h2 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.contact-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-box {
+  border-radius: 1rem;
+  /* border: 0.5rem solid white; */
+  box-shadow: 4px 4px 2px 1px black;
+}
+
+.contact-right {
+  background-color: #aa0000;
+  box-sizing: border-box;
+  flex: 1 1 65%;
+  margin: 5%;
+  padding: 1.3rem;
+  box-shadow: 4px 4px 2px 1px black;
+}
+
+.contact-left {
+  background-color: #aa0000;
+  box-sizing: border-box;
+  flex: 1 1 35%;
+  margin: 5%;
+  padding: 1.3rem;
+}
+
+.contact-link-section {
+  text-align: center;
+}
+
+.input-box {
+  border-radius: 0.2rem;
+  width: 95%;
+  font-size: 1rem;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(6 1fr);
+}
+
+.form-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0.6rem;
+}
+
+.contact-heading {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+
+.contact-heading h3 {
+  margin: 0;
+}
+
+.name {
+  margin-top: 4%;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.email {
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.phone-number {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.phone-number label {
+  width: 60%;
+}
+
+.phone-number input {
+  width: 40%;
+}
+
+.preferred-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.preferred-contact div {
+  font-size: 1rem !important;
+}
+
+.message {
+  grid-column: 2;
+  grid-row: 2 / 6;
+  flex-direction: column;
+}
+
+.message-block {
+  width: 100%;
+  /* padding: 0; */
+}
+
+.message-box {
+  height: 100%;
+}
+
+.button-area {
+  grid-column: 1 / 3;
+  grid-row: 6;
 }
 
 .block {
