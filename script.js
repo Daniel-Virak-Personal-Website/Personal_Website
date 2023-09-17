@@ -3,12 +3,18 @@ function index() {
     const name = window.prompt("What is your name?");
     alert(`Thanks for visiting my website, ${name}! I hope you enjoy!`);
     sessionStorage.setItem("userName", name);
+    sessionStorage.setItem("alerted", "true");
   } else {
-    alert(
-      `Thanks for visiting my website ${sessionStorage.getItem(
-        "userName"
-      )}! I hope you enjoy!`
-    );
+    if (sessionStorage.getItem("alerted") != "true") {
+      alert(
+        `Thanks for visiting my website ${sessionStorage.getItem(
+          "userName"
+        )}! I hope you enjoy!`
+      );
+      sessionStorage.setItem("alerted", "true");
+    } else {
+      return;
+    }
   }
 }
 
