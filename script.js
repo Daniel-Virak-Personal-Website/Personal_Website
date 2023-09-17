@@ -15,8 +15,12 @@ function index() {
 function contact() {
   if (sessionStorage.getItem("userName") != null) {
     document.querySelector("#name").value = sessionStorage.getItem("userName");
+    document.querySelector("#email").placeholder = `${sessionStorage.getItem(
+      "userName"
+    )}@email.com`;
   } else {
-    console.log("No name to use");
+    document.querySelector("#name").placeholder = "Your Name";
+    document.querySelector("#email").placeholder = "email@email.com";
   }
 }
 
