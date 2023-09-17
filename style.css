@@ -3,11 +3,21 @@ h1 {
   color: #b3995d;
   margin-top: 1.3rem;
   margin-bottom: 0;
+  text-shadow: 1px 1px 2px black;
 }
 
 h2 {
   color: #b3995d;
   margin: 1.3rem;
+  text-shadow: 1px 1px 2px black;
+}
+
+h3 {
+  text-shadow: 0.75px 0.75px 1.5px black;
+}
+
+h4 {
+  text-shadow: 0.5px 0.5px 1px black;
 }
 
 label {
@@ -39,7 +49,7 @@ main > div > img {
 }
 
 .block a {
-  transition: all 0.5s ease-in;
+  transition: all 0.4s ease-in-out 0.2s;
 }
 
 .block2 {
@@ -124,6 +134,15 @@ main > div > img {
   object-fit: cover;
 }
 
+.image-hover {
+  transition: all 0.4s ease-in-out 0.2s;
+}
+
+.image-hover:hover {
+  cursor: help;
+  transform: scale(1.05);
+}
+
 .hover-info {
   margin-top: 0;
 }
@@ -139,6 +158,11 @@ main > div > img {
 
 .company {
   color: #aa0000;
+}
+
+.company a {
+  color: #aa0000;
+  text-decoration: none;
 }
 
 .date {
@@ -160,7 +184,16 @@ main > div > img {
   font-weight: normal;
 }
 
+.block2 h2 {
+  color: #aa0000;
+}
+
 /* Contact Page Section */
+.contact-left > h3 {
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+}
+
 .contact-link-section a img {
   width: 10%;
   padding: 0 5%;
@@ -181,6 +214,7 @@ main > div > img {
 
 .contact-area h3 {
   color: #b3995d;
+  text-shadow: 1px 1px 2px black;
 }
 
 .contact-box {
@@ -299,26 +333,58 @@ main > div > img {
   font-weight: 600;
   font-size: 1.3rem;
   color: #aa0000;
-  transition: all 0.5s ease-in;
+  transition: all 0.4s ease-in-out 0.2s;
+  box-shadow: 2px 2px 1px 0.5px black;
 }
 
 .submit-button:hover {
   cursor: pointer;
   transform: scale(1.05);
-  box-shadow: 2px 2px 1px 0.5px black;
+  box-shadow: 4px 4px 2px 1px black;
 }
 
 /* My Portfolio Page */
-.github {
-  color: white;
+/* .github {
+  transition: all 0.5s ease-in;
+  text-decoration: none;
 }
 
-.github h2 {
+.github:hover {
+  transform: scale(1.03);
+  /* text-shadow: 2.3px 2.3px 3.6px black; */
+/* } */
+
+/* .github h2 {
   color: white;
+  transition: all 0.5s ease-in;
+  text-shadow: 1px 1px 2px black;
 }
 
-.block2 h2 {
+.github h2:hover {
+  text-shadow: 2.3px 2.3px 3.6px black;
+} */
+*/ .block2 h2 {
   color: #aa0000;
+}
+
+/* Link Section */
+.link {
+  transition: all 0.5s ease-in-out 0.2s;
+  text-decoration: none;
+}
+
+.link:hover {
+  transform: scale(1.03);
+}
+
+.link-header {
+  color: white;
+  transition: all 0.5s ease-in-out 0.2s;
+  text-shadow: 1px 1px 2px black;
+}
+
+.link-header:hover {
+  text-shadow: 2.3px 2.3px 3.6px black;
 }
 
 /* Header Section */
@@ -328,18 +394,16 @@ main > div > img {
   justify-content: center;
   align-items: center;
   margin: 0;
+  text-shadow: 1px 1px 2px black;
+}
+
+.header-links:hover {
+  text-shadow: 2px 2px 4px black;
 }
 
 .header-links a {
   color: white;
   padding: 0 10px;
-}
-
-.header-links a:hover {
-  opacity: 0.7;
-  background-color: #b3995d;
-  transform: scale(0.98);
-  border-radius: 0.5rem;
 }
 
 /* Footer Section */
@@ -471,5 +535,19 @@ main > div > img {
 
   .block2 h2 {
     margin-left: 1%;
+  }
+
+  .header-links p {
+    visibility: none;
+  }
+
+  .header-links > p:nth-child(4) {
+    display: none;
+  }
+
+  .header-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
   }
 }

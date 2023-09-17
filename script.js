@@ -1,16 +1,24 @@
-// function index() {
-//   if (sessionStorage.getItem("userName") === null) {
-//     const name = window.prompt("What is your name?");
-//     alert(`Thanks for visiting my website, ${name}! I hope you enjoy!`);
-//     sessionStorage.setItem("userName", name);
-//   } else {
-//     alert(
-//       `Thanks for visiting my website ${sessionStorage.getItem(
-//         "userName"
-//       )}! I hope you enjoy!`
-//     );
-//   }
-// }
+function index() {
+  if (sessionStorage.getItem("userName") === null) {
+    const name = window.prompt("What is your name?");
+    alert(`Thanks for visiting my website, ${name}! I hope you enjoy!`);
+    sessionStorage.setItem("userName", name);
+  } else {
+    alert(
+      `Thanks for visiting my website ${sessionStorage.getItem(
+        "userName"
+      )}! I hope you enjoy!`
+    );
+  }
+}
+
+function contact() {
+  if (sessionStorage.getItem("userName") != null) {
+    document.querySelector("#name").value = sessionStorage.getItem("userName");
+  } else {
+    console.log("No name to use");
+  }
+}
 
 // function about() {
 //   if (sessionStorage.getItem("userName") === null) {
@@ -30,7 +38,7 @@
 //   if (sessionStorage.getItem("userName") === null) {
 //     const name = window.prompt("What is your name?");
 //     alert(
-//       `Thanks for visiting my Portfolio page ${name}! Here is a list of all the projects I've accomplished! 
+//       `Thanks for visiting my Portfolio page ${name}! Here is a list of all the projects I've accomplished!
 //     I hope you enjoy!`
 //     );
 //     sessionStorage.setItem("userName", name);
