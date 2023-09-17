@@ -1,3 +1,4 @@
+/* Universal across all pages */
 h1 {
   color: #b3995d;
   margin-top: 1.3rem;
@@ -14,18 +15,55 @@ label {
   margin-bottom: 1%;
 }
 
-.contact-link-section a img {
-  width: 10%;
-  padding: 0 5%;
-  transition: all 0.3s ease-in;
-}
-
 a img:hover {
   transform: scale(1.1);
 }
 
 main > div > img {
   padding-bottom: 1rem;
+}
+
+.block {
+  background-color: #aa0000;
+  color: white;
+  border: 0.5rem solid #b3995d;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  letter-spacing: 0.3rem;
+  font-size: 1.6rem;
+  margin: 5px;
+}
+
+.block a {
+  transition: all 0.5s ease-in;
+}
+
+.block2 {
+  background-color: #b3995d;
+  color: white;
+  border: 0.5rem solid #aa0000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  letter-spacing: 0.3rem;
+  font-size: 1.6rem;
+  margin: 5px;
+}
+
+.block2 ul {
+  list-style: none;
+  text-align: left;
+}
+
+/* Index page section */
+.home > img {
+  width: 90%;
 }
 
 /* About page section */
@@ -86,7 +124,49 @@ main > div > img {
   object-fit: cover;
 }
 
+.hover-info {
+  margin-top: 0;
+}
+
+.education {
+  align-items: flex-start;
+}
+
+.title {
+  color: #aa0000;
+  margin: 0.3rem 0rem;
+}
+
+.company {
+  color: #aa0000;
+}
+
+.date {
+  font-weight: bold;
+  color: white;
+}
+
+.job {
+  padding-bottom: 0.1rem;
+}
+
+.job ul ul li {
+  margin-bottom: 0.3rem;
+  font-size: 1.3rem;
+}
+
+.location {
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
 /* Contact Page Section */
+.contact-link-section a img {
+  width: 10%;
+  padding: 0 5%;
+  transition: all 0.3s ease-in;
+}
+
 .preferred-contact section {
   padding-top: 1%;
   display: flex;
@@ -105,7 +185,6 @@ main > div > img {
 
 .contact-box {
   border-radius: 1rem;
-  /* border: 0.5rem solid white; */
   box-shadow: 4px 4px 2px 1px black;
 }
 
@@ -128,12 +207,7 @@ main > div > img {
 
 .contact-link-section {
   text-align: center;
-  /* height: 50px; */
 }
-
-/* .contact-link-section a img{
-  width: 50px;
-} */
 
 .input-box {
   border-radius: 0.2rem;
@@ -205,7 +279,6 @@ main > div > img {
 
 .message-block {
   width: 100%;
-  /* padding: 0; */
 }
 
 .message-box {
@@ -231,71 +304,11 @@ main > div > img {
 
 .submit-button:hover {
   cursor: pointer;
-  /* opacity: 0.7; */
   transform: scale(1.05);
   box-shadow: 2px 2px 1px 0.5px black;
 }
 
-.block {
-  background-color: #aa0000;
-  color: white;
-  border: 0.5rem solid #b3995d;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 1rem;
-  letter-spacing: 0.3rem;
-  font-size: 1.6rem;
-  margin: 5px;
-}
-
-.hover-info {
-  margin-top: 0;
-}
-
-.block2 {
-  background-color: #b3995d;
-  color: white;
-  border: 0.5rem solid #aa0000;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 1rem;
-  letter-spacing: 0.3rem;
-  font-size: 1.6rem;
-  margin: 5px;
-}
-
-.education {
-  align-items: flex-start;
-}
-
-.title {
-  color: #aa0000;
-  margin: 0.3rem 0rem;
-}
-
-.company {
-  color: #aa0000;
-}
-
-.date {
-  font-weight: bold;
-  color: white;
-}
-
-.job {
-  padding-bottom: 0.1rem;
-}
-
-.location {
-  font-size: 1.3rem;
-  font-weight: normal;
-}
-
+/* My Portfolio Page */
 .github {
   color: white;
 }
@@ -308,13 +321,18 @@ main > div > img {
   color: #aa0000;
 }
 
+/* Header Section */
+.header-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
 .header-links a {
   color: white;
   padding: 0 10px;
-}
-
-.block a {
-  transition: all 0.5s ease-in;
 }
 
 .header-links a:hover {
@@ -324,24 +342,7 @@ main > div > img {
   border-radius: 0.5rem;
 }
 
-.header-links {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-}
-
-.block2 ul {
-  list-style: none;
-  text-align: left;
-}
-
-.job ul ul li {
-  margin-bottom: 0.3rem;
-  font-size: 1.3rem;
-}
-
+/* Footer Section */
 .footer-link-section {
   display: block;
   align-items: center;
@@ -356,10 +357,6 @@ main > div > img {
 
 .footer-link-section > a:hover {
   transform: scale(1.1);
-}
-
-.home > img {
-  width: 90%;
 }
 
 /* Media querries for contact section so it doesnt get so ugly */
