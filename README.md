@@ -16,6 +16,12 @@ This serves as a page to display my work experience and other interesting inform
 
 This page presents links to all my projects in order to demonstrate my abilities as a programmer.
 
+### contact.html:
+This page contains my contact information such as linkedin and email. It also gives the user a form to leave their contact information, a preferred form of contact and a message to be sent to me.
+
+### submit.html:
+This serves as a a page to thank the visitor for filling out the contact form and reaching out to communicate with me.
+
 ### script.js:
 
 This is the JavaScript file where the site's functions are stored.
@@ -23,5 +29,11 @@ This is the JavaScript file where the site's functions are stored.
 ### style.css:
 
 This is the CSS page where all the layout is saved.
+
+### images:
+The images folder stores the pictures necessary for my website.
+
+### screenshots:
+The screenshots folder contains screenshots for proof of the group colaboration block 11 workshop.
 
 ## Thanks for reading my ReadMe!
