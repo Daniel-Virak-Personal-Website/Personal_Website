@@ -3,21 +3,21 @@ h1 {
   color: #b3995d;
   margin-top: 1.3rem;
   margin-bottom: 0;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 3px 3px 5.5px black;
 }
 
 h2 {
   color: #b3995d;
   margin: 1.3rem;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 2px 2px 4px black;
 }
 
 h3 {
-  text-shadow: 0.75px 0.75px 1.5px black;
+  text-shadow: 1.5px 1.5px 3px black;
 }
 
 h4 {
-  text-shadow: 0.5px 0.5px 1px black;
+  text-shadow: 1px 1px 2px black;
 }
 
 label {
@@ -191,7 +191,6 @@ main > div > img {
 /* Contact Page Section */
 .contact-left > h3 {
   text-align: center;
-  text-shadow: 1px 1px 2px black;
 }
 
 .contact-link-section a img {
@@ -214,7 +213,7 @@ main > div > img {
 
 .contact-area h3 {
   color: #b3995d;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 2px 2px 4px black;
 }
 
 .contact-box {
@@ -344,47 +343,27 @@ main > div > img {
 }
 
 /* My Portfolio Page */
-/* .github {
-  transition: all 0.5s ease-in;
-  text-decoration: none;
-}
-
-.github:hover {
-  transform: scale(1.03);
-  /* text-shadow: 2.3px 2.3px 3.6px black; */
-/* } */
-
-/* .github h2 {
-  color: white;
-  transition: all 0.5s ease-in;
-  text-shadow: 1px 1px 2px black;
-}
-
-.github h2:hover {
-  text-shadow: 2.3px 2.3px 3.6px black;
-} */
-*/ .block2 h2 {
+.block2 h2 {
   color: #aa0000;
 }
 
-/* Link Section */
+/* Link section */
 .link {
-  transition: all 0.5s ease-in-out 0.2s;
   text-decoration: none;
+  color: white;
+  transition: all 0.5s ease-in-out 0.2s;
+  text-shadow: 2px 2px 4px black;
 }
 
 .link:hover {
   transform: scale(1.03);
+  text-shadow: 4px 4px 7px black;
 }
 
-.link-header {
-  color: white;
-  transition: all 0.5s ease-in-out 0.2s;
-  text-shadow: 1px 1px 2px black;
-}
-
-.link-header:hover {
-  text-shadow: 2.3px 2.3px 3.6px black;
+.block > .link {
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding: 1%;
 }
 
 /* Header Section */
@@ -394,11 +373,7 @@ main > div > img {
   justify-content: center;
   align-items: center;
   margin: 0;
-  text-shadow: 1px 1px 2px black;
-}
-
-.header-links:hover {
-  text-shadow: 2px 2px 4px black;
+  text-shadow: 4px 4px 4px black;
 }
 
 .header-links a {
