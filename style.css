@@ -481,6 +481,14 @@ main > div > img {
     height: 100%;
     object-fit: cover;
   }
+
+  ul {
+    padding-left: 1%;
+  }
+
+  ul h3 {
+    padding-left: 1%;
+  }
 }
 
 /* Mobile Media Querires */
@@ -498,14 +506,6 @@ main > div > img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-
-  ul {
-    padding-left: 1%;
-  }
-
-  ul h3 {
-    padding-left: 1%;
   }
 
   .block2 h2 {
