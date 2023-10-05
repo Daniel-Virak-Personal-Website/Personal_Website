@@ -37,15 +37,6 @@ main > div > img {
   background-color: #aa0000;
   color: white;
   border: 0.5rem solid #b3995d;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 1rem;
-  letter-spacing: 0.3rem;
-  font-size: 1.6rem;
-  margin: 5px;
 }
 
 .block a {
@@ -56,6 +47,16 @@ main > div > img {
   background-color: #b3995d;
   color: white;
   border: 0.5rem solid #aa0000;
+}
+
+.block2 ul {
+  list-style: none;
+  text-align: left;
+}
+
+.block,
+.block2 {
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -64,11 +65,6 @@ main > div > img {
   letter-spacing: 0.3rem;
   font-size: 1.6rem;
   margin: 5px;
-}
-
-.block2 ul {
-  list-style: none;
-  text-align: left;
 }
 
 /* Index page section */
@@ -152,17 +148,17 @@ main > div > img {
 }
 
 .title {
-  color: #aa0000;
   margin: 0.3rem 0rem;
 }
 
-.company {
-  color: #aa0000;
-}
-
 .company a {
-  color: #aa0000;
   text-decoration: none;
+}
+.title,
+.company,
+.company a,
+.block2 h2 {
+  color: #aa0000;
 }
 
 .date {
@@ -182,10 +178,6 @@ main > div > img {
 .location {
   font-size: 1.3rem;
   font-weight: normal;
-}
-
-.block2 h2 {
-  color: #aa0000;
 }
 
 /* Contact Page Section */
@@ -222,20 +214,20 @@ main > div > img {
 }
 
 .contact-right {
-  background-color: #aa0000;
-  box-sizing: border-box;
   flex: 1 1 70%;
-  margin: 5%;
-  padding: 1.3rem;
   box-shadow: 4px 4px 2px 1px black;
 }
 
 .contact-left {
-  background-color: #aa0000;
-  box-sizing: border-box;
   flex: 1 1 30%;
+}
+
+.contact-left,
+.contact-right {
   margin: 5%;
   padding: 1.3rem;
+  background-color: #aa0000;
+  box-sizing: border-box;
 }
 
 .contact-link-section {
@@ -343,9 +335,6 @@ main > div > img {
 }
 
 /* My Portfolio Page */
-.block2 h2 {
-  color: #aa0000;
-}
 
 /* Link section */
 .link {
